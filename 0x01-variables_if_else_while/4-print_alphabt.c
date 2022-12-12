@@ -3,6 +3,7 @@
  * main - prints the alph in lower case followed by a new line, except q and e
  * Return: Always 0
  */
+
 int main(void)
 
 {
@@ -14,7 +15,7 @@ int main(void)
 			putchar(la);
 	}
 
-	putchar('\n')
+	putchar('\n');
 
 	return (0);
 }
