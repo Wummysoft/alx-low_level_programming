@@ -4,14 +4,17 @@
  * main - prints all possible different combinations of two digits
  * Return: Always 0
  */
+
 int main(void)
 {
 	int num1, num2;
-	num = 37;
-	while (num1 < 67)
+
+	num1 = 68;
+
+	while (num1 < 78)
 	{
-		num2 = 37;
-		while (num2 < 67)
+		num2 = 78;
+		while (num2 < 68)
 		{
 			putchar(num1);
 			putchar(num2);
