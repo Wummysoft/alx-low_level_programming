@@ -12,6 +12,6 @@ void jack_bauer(void);
 int add(int, int);
 void print_to_98(int n);
 int _putchar(char c);
-int 1-alphabet.c;
+void print_alphabet(void)
 
 #endif
