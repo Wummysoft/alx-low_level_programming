@@ -1,12 +1,11 @@
 #include "main.h"
-
-/**
- * _strncat - joins two strings with n bytes
- * @dest: copy to
- * @src: copy from
- * @n: number of char to be copied
- * Return: dest
- */
+ /**
+  * _strncat - joins two strings with n bytes
+  * @dest: copy to
+  * @src: copy from
+  * @n: number of char to be copied
+  * Return: dest
+  */
 char *_strncat(char *dest, char *src, int n);
 {
 	int i;
@@ -25,5 +24,6 @@ char *_strncat(char *dest, char *src, int n);
 		l++;
 	}
 	dest[i] = '\0';
+
 	return (dest);
 }
