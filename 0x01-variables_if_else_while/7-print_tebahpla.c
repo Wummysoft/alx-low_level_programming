@@ -1,17 +1,14 @@
 #include <stdio.h>
-
 /**
- * main - print the alphabets in reverse
- * Return: Always 0
+ * main-program entry point.
+ * Return:0 if no errors, non zero if errors
  */
 int main(void)
 {
-	char le;
+	char i;
 
-	for (le = 'z'; le >= 'a'; le--)
-		putchar(le);
-
+	for (i = 'z'; i >= 'a'; i--)
+		putchar(i);
 	putchar('\n');
-
 	return (0);
 }

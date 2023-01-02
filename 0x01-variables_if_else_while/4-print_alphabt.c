@@ -1,21 +1,19 @@
 #include <stdio.h>
+
 /**
- * main - prints the alph in lower case followed by a new line, except q and e
- * Return: Always 0
+ *main-program entry point.
+ *Return:0 if no error, non zero if error.
  */
-
 int main(void)
-
 {
-	char la;
+	char i;
 
-	for (la = 'a'; la <= 'z'; la++)
+	for (i = 'a'; i <= 'z'; i++)
 	{
-		if (la != 'e' && la != 'q')
-			putchar(la);
+		if (i == 'e' || i == 'q')
+			continue;
+		putchar(i);
 	}
-
 	putchar('\n');
-
 	return (0);
 }
