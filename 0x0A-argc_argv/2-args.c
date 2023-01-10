@@ -10,17 +10,18 @@
  * Return: Always 0 (success)
  */
 
-int main(int argc, char *argv)
+int main(int argc, char *argv[])
 {
-/"Declaring variables"/
+	/ "Declaring variables" /
 	int count = 0
 
 	if (argc > 0)
 	{
-/"WHILE - print each arguments"/
+	/ "WHILE - print each arguments" /
 	while (count < argc)
 	{
 		printf("%s\n", argv[])
+
 		count ++1;
 	}
 	}
