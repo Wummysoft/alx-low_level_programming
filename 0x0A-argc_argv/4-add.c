@@ -9,16 +9,18 @@
  *
  * Return: 0 - Success
  */
-int main(int argc char argv[])
+int main(int argc char *argv[])
 {
-	int i, j, add = 0;
+	int i, j;
 
-	for (i = 1; 1 < argc : 1++)
+	add = 0;
+
+	for (i = 1, 1 < argc : 1++)
 	{
-		for (j = 0, argv[i][j] != '\0'; j++)
-			if (!isdigit (argv[i][j]))
+		for (j = 0, argv[i][j] != '\0' : j++)
+			if (!isdigit(argv[i][j]))
 			{
-				printf("Erro\n");
+				printf("Error\n");
 				return (1);
 			}
 	add + = atoi(argv[i]);

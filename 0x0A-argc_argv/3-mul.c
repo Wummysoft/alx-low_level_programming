@@ -3,8 +3,8 @@
 #include <stdio.h>
 
 /**
- * main - print the multiplications of two integers 
- * @argc: Argument counts 
+ * main - print the multiplications of two integers
+ * @argc: Argument counts
  * @argv: Argument vector
  *
  * Return: 0 if true, 1 if false
@@ -12,11 +12,11 @@
 int main(int argc, char *argv[])
 {
 	int a, b;
-	
+
 	if (argc == 1)
 	{
-		a = atoi (argv[1]);
-		b = atoi (argv[2]);
+		a = atoi(argv[1]);
+		b = atoi(argv[2]);
 		printf("%d\n", a * b);
 		return (0);
 	}
