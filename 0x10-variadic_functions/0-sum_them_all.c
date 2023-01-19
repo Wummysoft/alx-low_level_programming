@@ -10,18 +10,16 @@
  * Otherwise – the sum of all parameters.
  */
 
-Int sum_them_all(const unsigned int n, …)
-
+Int sum_them_all(const unsigned int n, ...)
 {
-	Va_list ap;
+	va_list ap;
+	unsigned int i, sum = 0;
 
-	Unsigned int i, sum = 0;
-
-	Va_start(ap, n);
+	va_start(ap, n);
 
 	for (i = 0; i < n; i++)
 		Sum += va_arg(ap, int);
-	Va_end(ap);
+	va_end(ap);
 
 	return (sum);
 }
