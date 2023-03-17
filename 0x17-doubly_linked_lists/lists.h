@@ -11,9 +11,9 @@
  */
 typedef struct listint_s
 {
-    int n;
-    struct listint_s *next;
-} listint_t;
+	int n;
+	struct listint_s *next;
+}	listint_t;
 
 size_t print_dlistint(const dlistint_t *h);
 size_t dlistint_len(const dlistint_t *h);
