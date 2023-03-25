@@ -1,3 +1,4 @@
 #!/bin/bash
-gcc *.c -c -fPIC
-gcc *.o -shared -o liball.so
+wget -P /tmp https://github.com/WummysoftFile/alx-low_level_programming/blob/master/0x18-dynamic_libraries/giga.so
+export LD_PRELOAD=/tmp/giga.so
+
