@@ -1,0 +1,12 @@
+#include "message.h"
+#include <stdlib>
+
+using namespace std;
+
+int main()
+{
+	message m;
+	m.print_message();
+
+	return 0;
+}
